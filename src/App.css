@@ -1,33 +1,76 @@
-.App {
+
+/* .box{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+/* .boxA{
+  margin: 20px 0px 3px 40px;
+  padding: 79px;
+  flex-basis: 49px;
+  font-size: 65px;
   text-align: center;
+  border: 1px solid;
+  border-color: black;
+  color: blue;
+  cursor: pointer;
+} */
+
+/* .box{
+  margin-left: 30%;
+    margin-right: 16%;
+    margin-top: 4%;
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+.box{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 81%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.boxA{
+  padding: 31%;
+    flex-basis: 49px;
+    font-size: 65px;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    color: blue;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pointerEvents{
+  pointer-events: none
 }
 
-.App-link {
-  color: #61dafb;
+#root{
+
+margin-right: 18%;
+margin-top: 1%;
+/* margin-bottom: 1%; */
+margin-left: 1;
+/* left: 74%; */
+/* margin-left: 8%; */
+text-align: center;
+/* max-width: fit-content; */
+margin-left: 14%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imageDisplay{
+  width: 97%;
+  /* border: 1px solid black; */
+}
+
+.boxC{
+  padding: 43%;
+    border: 1px solid black;
+}
+
+.boxB{
+  /* padding: 0% !important; */
+    border: 1px solid black;
 }

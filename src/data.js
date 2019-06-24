@@ -45,6 +45,7 @@ let card =  [{
     number: 4,
     name: 'D',
     image:"https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
-  }];
+  }
+];
 
   module.exports = card;
